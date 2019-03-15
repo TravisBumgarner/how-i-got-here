@@ -1,3 +1,5 @@
+import path from 'path'
+
 import axios from 'axios'
 import express from 'express'
 import bodyParser from 'body-parser'
@@ -11,6 +13,8 @@ const app = express()
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(cors())
+
+app.use('/static', express.static(path.join(__dirname + '../../dist')))
 
 app.get('/search', async (request, response, next) => {
     const url = `https://www.goodreads.com/search/index.xml?key=${config.goodReads.key}&q=${request.query.query}`
@@ -37,5 +41,14 @@ app.post('/submission', async (request, response, next) => {
 })
 
 app.get('/ok', (request, response, next) => response.send('Service is running'))
+
+// This so hacky, I know. :shrug:
+app.get('/app.js', function(request, response) {
+    response.sendFile(path.resolve(__dirname, '../../dist', 'app.bundle.js'))
+})
+
+app.get('/', function(request, response) {
+    response.sendFile(path.resolve(__dirname, '../../dist', 'index.html'))
+})
 
 export default app

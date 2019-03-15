@@ -23,10 +23,10 @@ setupEnv()
 module.exports = env => {
     return {
         entry: {
-            app: './src/index.js'
+            app: './src/frontend/index.js'
         },
         output: {
-            filename: '[name]-[hash].bundle.js',
+            filename: 'app.bundle.js',
             path: path.resolve(__dirname, 'dist'),
             publicPath
         },
@@ -51,7 +51,7 @@ module.exports = env => {
         },
         plugins: [
             new HtmlWebpackPlugin({
-                template: './index.template.ejs',
+                template: path.resolve(__dirname, './src/frontend/index.template.ejs'),
                 inject: 'body'
             }),
             new webpack.DefinePlugin({ __API__: apiHost })
