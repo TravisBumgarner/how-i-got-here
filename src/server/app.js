@@ -23,7 +23,6 @@ app.get('/search', async (request, response, next) => {
     parseString(grResponse.data, (error, result) => {
         works = result
     })
-    console.log(works)
     const books = works.GoodreadsResponse.search[0].results[0].work.map(w => ({
         title: w.best_book[0].title[0],
         author: w.best_book[0].author[0].name[0],
