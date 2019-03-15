@@ -9,7 +9,7 @@ setupEnv = () => {
     console.log(process.env.NODE_ENV)
     switch (process.env.NODE_ENV) {
         case 'development':
-            apiHost = "'http://localhost:8000/'"
+            apiHost = "'http://localhost:3005/'"
             publicPath = '/'
             break
         default:
