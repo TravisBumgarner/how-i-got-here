@@ -4,10 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start:server:dev": "NODE_ENV=development nodemon -r esm index.js",
-        "start:server:prod": "NODE_ENV=production nodemon -r esm index.js",
-        "start:frontend:dev": "NODE_ENV=development webpack-dev-server --hot --inline --mode=development --config ./webpack.js",
-        "bundle:frontend": "rm ./dist/index.html; rm ./dist/app*; mkdir ./dist; NODE_ENV=production; webpack --mode=production --config ./webpack.js"
+        "server:dev": "NODE_ENV=development nodemon -r esm index.js",
+        "server:prod": "NODE_ENV=production nodemon -r esm index.js",
+        "frontend:dev": "NODE_ENV=development webpack-dev-server --hot --inline --mode=development --config ./webpack.js",
+        "bundle": "rm ./dist/index.html; rm ./dist/app*; mkdir ./dist; NODE_ENV=production; webpack --mode=production --config ./webpack.js"
     },
     "author": "Travis Bumgarner",
     "dependencies": {
