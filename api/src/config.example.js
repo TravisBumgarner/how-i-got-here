@@ -1,5 +1,8 @@
 const config = {
-    whiteListUrls: [],
+    goodReads: {
+        key: "",
+        secret: ""
+    },
     db: {
         host: "",
         user: "",
