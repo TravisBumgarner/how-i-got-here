@@ -49,9 +49,12 @@ class App extends Component {
 
     getBooks = async () => {
         const {query} = this.state
-
-        const response = await axios.get(`${__API__}autocomplete?query=${query}`)
-        this.setState({searchedBooks: response.data})
+        if(query.length === 0){
+            alert('Please enter a query.')
+        } else {
+            const response = await axios.get(`${__API__}search?query=${query}`)
+            this.setState({searchedBooks: response.data})
+        }
     }
 
     addBook = (book) => {
@@ -67,13 +70,21 @@ class App extends Component {
         }
     }
 
-    submitBooks = () => {
+    submitBooks = async() => {
         const {selectedBooks} = this.state
 
         if(selectedBooks.length === 0){
             alert("Please select at least one book.")
         } else {
-            alert(selectedBooks)
+            axios.post(`${__API__}submission`,{data: {
+                selectedBooks
+            }}).then(response => {
+                alert("You are awesome, thanks!")
+                this.setState({selectedBooks: [], searchedBooks: [], query: ''})
+            })
+            .catch(error => alert("I think I broke it. Whoops."))
+            
+            this.setState()
         }
     }
 
@@ -97,8 +108,8 @@ class App extends Component {
 
         console.log(searchedBooks)
 
-        const SearchResults = searchedBooks.map(book => (<BookWrapper><p>{book}</p><Button variant="contained" color="primary" onClick={() => this.addBook(book)}>Add</Button></BookWrapper>))
-        const SelectedBooks = selectedBooks.sort().map((book, index) => (<BookWrapper><p>{book}</p><Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>Remove</Button></BookWrapper>))
+        const SearchResults = searchedBooks.map(book => (<BookWrapper><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.addBook(book)}>Add</Button></BookWrapper>))
+        const SelectedBooks = selectedBooks.sort().map((book, index) => (<BookWrapper><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>Remove</Button></BookWrapper>))
 
         return (
             <AppWrapper>
