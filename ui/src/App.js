@@ -29,6 +29,10 @@ const SelectedBooksWrapper = styled.div`
     width: 45%;
     border: 2px solid black;
     padding: 10px;
+
+    & * {
+        margin: 10px 0;
+    }
 `
 
 const BookWrapper = styled.div`
