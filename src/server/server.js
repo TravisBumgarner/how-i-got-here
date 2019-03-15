@@ -1,5 +1,5 @@
 import app from "./app"
 
-const port = 3005
+const port = 3101
 
 app.listen(port, () => console.log(`Listening on port ${port}!`))

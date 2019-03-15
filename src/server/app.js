@@ -43,7 +43,7 @@ app.post('/submission', async (request, response, next) => {
 app.get('/ok', (request, response, next) => response.send('Service is running'))
 
 // This so hacky, I know. :shrug:
-app.get('/app.js', function(request, response) {
+app.get('/app.bundle.js', function(request, response) {
     response.sendFile(path.resolve(__dirname, '../../dist', 'app.bundle.js'))
 })
 
