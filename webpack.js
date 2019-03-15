@@ -13,7 +13,7 @@ setupEnv = () => {
             publicPath = '/'
             break
         default:
-            apiHost = "'http://how-we-got-here.travisbumgarner.com'"
+            apiHost = "'http://how-we-got-here.travisbumgarner.com/'"
             publicPath = '/'
     }
     console.log(apiHost)
