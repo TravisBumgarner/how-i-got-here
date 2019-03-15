@@ -42,6 +42,7 @@ class App extends Component {
         super(props)
         this.state = {
             query: '',
+            user: '',
             searchedBooks: [],
             selectedBooks: []
         }
@@ -58,7 +59,6 @@ class App extends Component {
     }
 
     addBook = (book) => {
-        console.log(book)
         const {selectedBooks} = this.state
         if(selectedBooks.length === 5){
             alert('Please remove a book. There is a max of 5!')
@@ -71,16 +71,17 @@ class App extends Component {
     }
 
     submitBooks = async() => {
-        const {selectedBooks} = this.state
+        const {selectedBooks, user} = this.state
 
         if(selectedBooks.length === 0){
             alert("Please select at least one book.")
         } else {
             axios.post(`${__API__}submission`,{data: {
-                selectedBooks
+                selectedBooks,
+                user
             }}).then(response => {
                 alert("You are awesome, thanks!")
-                this.setState({selectedBooks: [], searchedBooks: [], query: ''})
+                this.setState({selectedBooks: [], searchedBooks: [], query: '', user: ''})
             })
             .catch(error => alert("I think I broke it. Whoops."))
             
@@ -99,14 +100,17 @@ class App extends Component {
         this.setState({query: event.target.value})
     }
 
+    updateUser = (event) => {
+        this.setState({user: event.target.value})
+    }
+
     render() {
         const {
             query,
             searchedBooks,
-            selectedBooks
+            selectedBooks,
+            user
         } = this.state
-
-        console.log(searchedBooks)
 
         const SearchResults = searchedBooks.map(book => (<BookWrapper><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.addBook(book)}>Add</Button></BookWrapper>))
         const SelectedBooks = selectedBooks.sort().map((book, index) => (<BookWrapper><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>Remove</Button></BookWrapper>))
@@ -125,6 +129,7 @@ class App extends Component {
                     <SelectedBooksWrapper>
                         <h2>Selected Books</h2>
                         {SelectedBooks}
+                        <TextField onChange={this.updateUser} fullWidth value={user} label="Your Name (annonymous is fine!)?"/>
                         <Button onClick={this.submitBooks} fullWidth variant="contained" color="primary">Submit Selected Books</Button>
                     </SelectedBooksWrapper>
                 </FlexWrapper>

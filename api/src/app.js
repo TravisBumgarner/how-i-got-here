@@ -24,8 +24,10 @@ app.get("/search", async (request, response, next) => {
 })
 
 app.post("/submission", async (request, response, next) => {
-    request.body.data.selectedBooks.forEach(async book => {
-        await createBook(book)
+    const {user, selectedBooks}  = request.body.data
+
+    selectedBooks.forEach(async book => {
+        await createBook({...book, user})
     })
     return response.status(200).send(request.body)
 })

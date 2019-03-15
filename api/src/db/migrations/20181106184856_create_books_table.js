@@ -6,6 +6,7 @@ exports.up = function(knex, Promise) {
         table.text("title")
         table.text("author")
         table.text("src")
+        table.text("user")
     })
 }
 
