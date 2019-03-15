@@ -6,6 +6,32 @@ import axios from 'axios'
 
 const DEFAULT_SPACING = `30px`
 
+const DetailsWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+`
+
+const TitleAndAuthorWrapper = styled.div`
+    margin-left: 20px;
+`
+
+const BookTitle = styled.h3`
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+`
+
+const Title = styled.h1`
+    font-weight: 400;
+    font-size: 30px;
+`
+
+const SubTitle = styled.h2`
+    font-weight: 100;
+    font-size: 26px;
+`
+
 const AppWrapper = styled.div`
     width: 100vw;
     height: 100vh;
@@ -18,19 +44,21 @@ const FlexWrapper = styled.div`
     display: flex;
 `
 
+const SearchBarWrapper = styled.div`
+    display: flex;
+    width: 100%;
+`
+
 const SearchWrapper = styled.div`
-    width: 45%;
+    width: 70%;
     margin: 0 2.5% 0 0;
-    border: 2px solid black;
+    border: 1px solid #888;
     padding: 10px;
-    & * {
-        margin: 10px 0;
-    }
 `
 
 const SelectedBooksWrapper = styled.div`
-    width: 45%;
-    border: 2px solid black;
+    width: 30%;
+    border: 1px solid #888;
     padding: 10px;
 
     & * {
@@ -130,10 +158,13 @@ class App extends Component {
 
         const SearchResults = searchedBooks.map(book => (
             <BookWrapper key={book.title + book.author}>
-                <p>
+                <DetailsWrapper>
                     <img src={book.src} />
-                    {book.title} by {book.author}
-                </p>
+                    <TitleAndAuthorWrapper>
+                        <BookTitle>{book.title}</BookTitle>
+                        {book.author}
+                    </TitleAndAuthorWrapper>
+                </DetailsWrapper>
                 <Button variant="contained" color="primary" onClick={() => this.addBook(book)}>
                     Add
                 </Button>
@@ -141,10 +172,12 @@ class App extends Component {
         ))
         const SelectedBooks = selectedBooks.sort().map((book, index) => (
             <BookWrapper key={book.title + book.author}>
-                <p>
+                <DetailsWrapper>
                     <img src={book.src} />
-                    {book.title} by {book.author}
-                </p>
+                    <TitleAndAuthorWrapper>
+                        {book.title} by {book.author}
+                    </TitleAndAuthorWrapper>
+                </DetailsWrapper>
                 <Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>
                     Remove
                 </Button>
@@ -153,27 +186,29 @@ class App extends Component {
 
         return (
             <AppWrapper>
-                <h2>
+                <Title>
                     Hey! Search for books that have made you who you are today, select up to 5 good ones, enter your
                     name, hit submit.
-                </h2>
-                <TextField
-                    onKeyUp={this.getBooks}
-                    onChange={this.updateQuery}
-                    fullWidth
-                    value={query}
-                    label="Search for a Book (Via Goodreads)"
-                />
-                <Button onClick={this.getBooks} variant="contained" color="primary">
-                    Search
-                </Button>
+                </Title>
                 <FlexWrapper>
                     <SearchWrapper>
-                        <h2>Search Results</h2>
+                        <SearchBarWrapper>
+                            <TextField
+                                onKeyUp={this.getBooks}
+                                onChange={this.updateQuery}
+                                value={query}
+                                fullWidth
+                                label="Search for a Book (Via Goodreads)"
+                            />
+                            <Button onClick={this.getBooks} variant="contained" color="primary">
+                                Search
+                            </Button>
+                        </SearchBarWrapper>
+                        <SubTitle>Search Results</SubTitle>
                         {SearchResults}
                     </SearchWrapper>
                     <SelectedBooksWrapper>
-                        <h2>Selected Books</h2>
+                        <SubTitle>Selected Books</SubTitle>
                         {SelectedBooks}
                         <TextField
                             onChange={this.updateUser}
