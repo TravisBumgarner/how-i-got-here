@@ -58,13 +58,13 @@ class App extends Component {
     }
 
     addBook = (book) => {
+        console.log(book)
         const {selectedBooks} = this.state
         if(selectedBooks.length === 5){
             alert('Please remove a book. There is a max of 5!')
         } else if (selectedBooks.includes(book)){
             alert('You\'ve already added this book!')
         }
-
         else {
             this.setState({selectedBooks: [...selectedBooks, book]})
         }
