@@ -1,12 +1,12 @@
-const TABLE_NAME = "books"
+const TABLE_NAME = 'books'
 
 exports.up = function(knex, Promise) {
     return knex.schema.createTable(TABLE_NAME, table => {
-        table.increments("id")
-        table.text("title")
-        table.text("author")
-        table.text("src")
-        table.text("user")
+        table.increments('id')
+        table.text('title')
+        table.text('author')
+        table.text('src')
+        table.text('user')
     })
 }
 
