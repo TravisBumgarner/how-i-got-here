@@ -23,6 +23,9 @@ const SearchWrapper = styled.div`
     margin: 0 2.5% 0 0;
     border: 2px solid black;
     padding: 10px;
+    & * {
+        margin: 10px 0;
+    }
 `
 
 const SelectedBooksWrapper = styled.div`
@@ -52,7 +55,13 @@ class App extends Component {
         }
     }
 
-    getBooks = async () => {
+    getBooks = async event => {
+        const ENTER = 13
+        if (event.keyCode && event.keyCode !== ENTER) {
+            // Don't get books if keyCode is pressed but not enter
+            return
+        }
+
         const { query } = this.state
         if (query.length === 0) {
             alert('Please enter a query.')
@@ -144,8 +153,12 @@ class App extends Component {
 
         return (
             <AppWrapper>
-                <h2>Hey! Search for some books, select up to 5 good ones, enter your name, hit submit.</h2>
+                <h2>
+                    Hey! Search for books that have made you who you are today, select up to 5 good ones, enter your
+                    name, hit submit.
+                </h2>
                 <TextField
+                    onKeyUp={this.getBooks}
                     onChange={this.updateQuery}
                     fullWidth
                     value={query}
