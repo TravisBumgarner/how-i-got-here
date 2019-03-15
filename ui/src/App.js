@@ -116,8 +116,8 @@ class App extends Component {
             user
         } = this.state
 
-        const SearchResults = searchedBooks.map(book => (<BookWrapper><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.addBook(book)}>Add</Button></BookWrapper>))
-        const SelectedBooks = selectedBooks.sort().map((book, index) => (<BookWrapper><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>Remove</Button></BookWrapper>))
+        const SearchResults = searchedBooks.map(book => (<BookWrapper key={book.title + book.author}><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.addBook(book)}>Add</Button></BookWrapper>))
+        const SelectedBooks = selectedBooks.sort().map((book, index) => (<BookWrapper key={book.title + book.author}><p><img src={book.src}/>{book.title} by {book.author}</p><Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>Remove</Button></BookWrapper>))
 
         return (
             <AppWrapper>
