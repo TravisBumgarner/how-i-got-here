@@ -2,7 +2,7 @@ import knex from './knex'
 
 const getAggregatedBooks = () => {
     return knex('books')
-        .select(knex.raw('title, count(title), author'))
+        .select(knex.raw('title, count(title) as titleCount, author'))
         .groupBy('title')
         .orderByRaw('count(title) desc')
 }

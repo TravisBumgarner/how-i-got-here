@@ -7,7 +7,7 @@ import { parseString } from 'xml2js'
 import cors from 'cors'
 
 import config from './config'
-import { getAggregatedBooks } from './db'
+import { getAggregatedBooks, getAggregatedAuthors, getRawList } from './db'
 const app = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -51,9 +51,19 @@ app.get('/', function(request, response) {
     response.sendFile(path.resolve(__dirname, '../../dist', 'index.html'))
 })
 
-app.get('/aggregated_results', async (request, response, next) => {
+app.get('/aggregated_books', async (request, response, next) => {
     const books = await getAggregatedBooks()
     return response.send({ books })
+})
+
+app.get('/aggregated_authors', async (request, response, next) => {
+    const authors = await getAggregatedAuthors()
+    return response.send({ authors })
+})
+
+app.get('/raw_list', async (request, response, next) => {
+    const results = await getRawList()
+    return response.send({ results })
 })
 
 export default app
