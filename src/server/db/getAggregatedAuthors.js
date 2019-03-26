@@ -1,7 +1,7 @@
 import knex from './knex'
 
-const getAggregatedAuthors = () => {
-    return knex('books')
+const getAggregatedAuthors = async () => {
+    return await knex('books')
         .select(knex.raw('count(author) as count, author'))
         .groupBy('author')
         .orderByRaw('count(author) desc')
