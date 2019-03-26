@@ -1,0 +1,294 @@
+3|The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life|Mark Manson|https://images.gr-assets.com/books/1465761302s/28257707.jpg|Travis Bumgarner
+4|The Art of Happiness|Dalai Lama XIV|https://images.gr-assets.com/books/1309287434s/38210.jpg|Travis Bumgarner
+5|Becoming a Better Programmer|Pete Goodliffe|https://images.gr-assets.com/books/1412531585s/22512921.jpg|Travis Bumgarner
+6|Solve for Happy: Engineer Your Path to Joy|Mo Gawdat|https://images.gr-assets.com/books/1489922834s/30354426.jpg|Ellen Thompson
+7|Remote: Office Not Required|David Heinemeier Hansson|https://images.gr-assets.com/books/1363265098s/17316682.jpg|Andy Lincoln
+8|Art and Fear: Observations on the Perils (and Rewards) of Artmaking|David Bayles|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Andy Lincoln
+9|Amusing Ourselves to Death: Public Discourse in the Age of Show Business|Neil Postman|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Charlie Hill
+10|A People's History of the United States|Howard Zinn|https://images.gr-assets.com/books/1494279423s/2767.jpg|Charlie Hill
+11|Algorithms to Live By: The Computer Science of Human Decisions|Brian Christian|https://images.gr-assets.com/books/1454296875s/25666050.jpg|Charlie Hill
+12|Pale Blue Dot: A Vision of the Human Future in Space|Carl Sagan|https://images.gr-assets.com/books/1500191671s/61663.jpg|Charlie Hill
+13|Confessions of an Economic Hitman|John Perkins|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Charlie Hill
+14|On the Edge: The Art of High-Impact Leadership|Alison Levine|https://images.gr-assets.com/books/1403173763s/17899687.jpg|Tami O'Neil
+15|Turn the Ship Around!: A True Story of Turning Followers into Leaders|L. David Marquet|https://images.gr-assets.com/books/1363560329s/16158601.jpg|Tami O'Neil
+16|The One Thing: The Surprisingly Simple Truth Behind Extraordinary Results|Gary Keller|https://images.gr-assets.com/books/1362177469s/16256798.jpg|Tami O'Neil
+17|The Formula: The Universal Laws of Success|Albert-László Barabási|https://images.gr-assets.com/books/1539751876s/39088545.jpg|Mike
+18|The 7 Habits of Highly Effective People|R. Stephen Covey|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+19|Good to Great: Why Some Companies Make the Leap... and Others Don't|James C. Collins|https://images.gr-assets.com/books/1546097703s/76865.jpg|
+20|Who Moved My Cheese?|Spencer Johnson|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+21|The Wide Lens|Ron Adner|https://images.gr-assets.com/books/1335330837s/13558930.jpg|
+22|Just One Thing: Developing a Buddha Brain One Simple Practice at a Time|Rick Hanson|https://images.gr-assets.com/books/1344907792s/11276139.jpg|
+23|The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life|Mark Manson|https://images.gr-assets.com/books/1465761302s/28257707.jpg|
+24|Deep Work: Rules for Focused Success in a Distracted World|Cal Newport|https://images.gr-assets.com/books/1447957962s/25744928.jpg|
+25|Dune (Dune Chronicles, #1)|Frank Herbert|https://images.gr-assets.com/books/1434908555s/234225.jpg|Mike Jannino
+26|Dune Messiah (Dune Chronicles #2)|Frank Herbert|https://images.gr-assets.com/books/1533872326s/106.jpg|Mike Jannino
+27|The Buddha Walks into a Bar...: A Guide to Life for a New Generation|Lodro Rinzler|https://images.gr-assets.com/books/1333595265s/12302843.jpg|Mike Jannino
+28|A Song of Ice and Fire (A Song of Ice and Fire, #1-5)|George R.R. Martin|https://images.gr-assets.com/books/1339340118s/12177850.jpg|Mike Jannino
+29|Foundation (Foundation #1)|Isaac Asimov|https://images.gr-assets.com/books/1417900846s/29579.jpg|Mike Jannino
+30|SUMMUM: Sealed Except to the Open Mind|Summum Bonum Amen Ra|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+31|The Book of Mirdad: The strange story of a monastery which was once called The Ark|Mikhail Naimy|https://images.gr-assets.com/books/1539163698s/1487022.jpg|
+32|Tuesdays with Morrie|Mitch Albom|https://images.gr-assets.com/books/1423763749s/6900.jpg|
+33|Illusions: The Adventures of a Reluctant Messiah|Richard Bach|https://images.gr-assets.com/books/1353964306s/29946.jpg|
+34|Way of the Peaceful Warrior: A Book That Changes Lives|Dan Millman|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+35|The Compound Effect: Jumpstart Your Income, Your Life, Your Success|Darren Hardy|https://images.gr-assets.com/books/1337205071s/9420697.jpg|
+36|The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life: Before 8AM|Hal Elrod|https://images.gr-assets.com/books/1459775078s/17166225.jpg|
+37|The Power of Now: A Guide to Spiritual Enlightenment|Eckhart Tolle|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+38|A New Earth: Awakening to Your Life's Purpose|Eckhart Tolle|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+39|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+40|Idiot Brain: What Your Head Is Really Up To|Dean Burnett|https://images.gr-assets.com/books/1463185933s/26530389.jpg|
+41|Everything That Remains: A Memoir by the Minimalists|Joshua Fields Millburn|https://images.gr-assets.com/books/1388667510s/20370505.jpg|
+42|Beyond Words: What Animals Think and Feel|Carl Safina|https://images.gr-assets.com/books/1415428650s/22320456.jpg|
+43|Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead|Brené Brown|https://images.gr-assets.com/books/1337110319s/13588356.jpg|
+44|Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.|Brené Brown|https://images.gr-assets.com/books/1541026732s/40109367.jpg|
+45|Drive: The Surprising Truth About What Motivates Us|Daniel H. Pink|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+46|Deep Work: Rules for Focused Success in a Distracted World|Cal Newport|https://images.gr-assets.com/books/1447957962s/25744928.jpg|
+47|Good to Great: Why Some Companies Make the Leap... and Others Don't|James C. Collins|https://images.gr-assets.com/books/1546097703s/76865.jpg|
+48|The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change|Stephen R. Covey|https://images.gr-assets.com/books/1421842784s/36072.jpg|
+49|Man's Search for Meaning|Viktor E. Frankl|https://images.gr-assets.com/books/1535419394s/4069.jpg|
+50|12 Rules for Life: An Antidote to Chaos|Jordan B. Peterson|https://images.gr-assets.com/books/1512705866s/30257963.jpg|Mandi Jensen
+51|Molecular Thermodynamics of Fluid-Phase Equilibria|John M. Prausnitz|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Devan Kestel
+52|Thinking with Type|Ellen Lupton|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Devan Kestel
+53|Introduction to Numerical Methods and MATLAB: Implementations and Applications|Gerald W. Reckenwald|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Devan Kestel
+54|The ABC's of LGBT+|Ashley Mardell|https://images.gr-assets.com/books/1474732940s/28783749.jpg|Devan Kestel
+55|Statistics for Experimenters: Design, Innovation, and Discovery|George E.P. Box|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Devan Kestel
+56|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+57|The Lord of the Rings (The Lord of the Rings, #1-3)|J.R.R. Tolkien|https://images.gr-assets.com/books/1547450792s/33.jpg|
+58|Educated|Tara Westover|https://images.gr-assets.com/books/1506026635s/35133922.jpg|
+59|A Brief History of Time|Stephen Hawking|https://images.gr-assets.com/books/1333578746s/3869.jpg|
+60|The Book of Mormon: Another Testament of Jesus Christ|Anonymous|https://images.gr-assets.com/books/1327389004s/323355.jpg|Max
+61|Predictably Irrational: The Hidden Forces That Shape Our Decisions|Dan Ariely|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Max
+62|Outliers: The Story of Success|Malcolm Gladwell|https://images.gr-assets.com/books/1344266315s/3228917.jpg|Max
+63|Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration|Ed Catmull|https://images.gr-assets.com/books/1400863577s/18077903.jpg|Max
+64|Harry Potter Series Box Set (Harry Potter, #1-7)|J.K. Rowling|https://images.gr-assets.com/books/1534298934s/862041.jpg|Max
+65|Plato's Camera: How the Physical Brain Captures a Landscape of Abstract Universals|Paul M. Churchland|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Richard Herbert
+66|Siddhartha|Hermann Hesse|https://images.gr-assets.com/books/1428715580s/52036.jpg|Richard Herbert
+67|A Brief History of Time|Stephen Hawking|https://images.gr-assets.com/books/1333578746s/3869.jpg|Richard Herbert
+68|Contact|Carl Sagan|https://images.gr-assets.com/books/1408792653s/61666.jpg|Richard Herbert
+69|Madness and Civilization: A History of Insanity in the Age of Reason|Michel Foucault|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Richard Herbert
+70|Principles: Life and Work|Ray Dalio|https://images.gr-assets.com/books/1503365703s/34536488.jpg|Tom McConnon
+71|Drive: The Surprising Truth About What Motivates Us|Daniel H. Pink|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|David Batten
+72|Clean Code: A Handbook of Agile Software Craftsmanship|Robert C. Martin|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|David Batten
+73|The Clean Coder: A Code of Conduct for Professional Programmers|Robert C. Martin|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|David Batten
+74|Accelerate: Building and Scaling High-Performing Technology Organizations|Nicole Forsgren|https://images.gr-assets.com/books/1520615948s/35747076.jpg|David Batten
+75|Kanban: Successful Evolutionary Change for Your Technology Business|David J. Anderson|https://images.gr-assets.com/books/1335865085s/8086552.jpg|David Batten
+76|How to Win Friends and Influence People|Dale Carnegie|https://images.gr-assets.com/books/1442726934s/4865.jpg|
+77|12 Rules for Life: An Antidote to Chaos|Jordan B. Peterson|https://images.gr-assets.com/books/1512705866s/30257963.jpg|Anonymous
+78|The Yoga Sutras|Patañjali|https://images.gr-assets.com/books/1344675495s/56305.jpg|Elizabeth Notturno
+79|A New Earth: Awakening to Your Life's Purpose|Eckhart Tolle|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Elizabeth Notturno
+80|The Power of Now: A Guide to Spiritual Enlightenment|Eckhart Tolle|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Elizabeth Notturno
+81|Ishmael: An Adventure of the Mind and Spirit|Daniel Quinn|https://images.gr-assets.com/books/1529680413s/40611328.jpg|Elizabeth Notturno
+82|Extreme Ownership: How U.S. Navy SEALs Lead and Win|Jocko Willink|https://images.gr-assets.com/books/1427163007s/23848190.jpg|Taylor Journey
+83|Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness (And World Peace)|Chade-Meng Tan|https://images.gr-assets.com/books/1335724389s/12921211.jpg|Taylor Journey
+84|Can't Hurt Me: Master Your Mind and Defy the Odds|David Goggins|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Taylor Journey
+85|Linchpin: Are You Indispensable?|Seth Godin|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Taylor Journey
+86|On Writing: A Memoir of the Craft|Stephen King|https://images.gr-assets.com/books/1436735207s/10569.jpg|Taylor Journey
+87|Pragmatic Thinking and Learning: Refactor Your Wetware|Andy Hunt|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+88|Designing Data-Intensive Applications|Martin Kleppmann|https://images.gr-assets.com/books/1415816873s/23463279.jpg|
+89|Finite and Infinite Games: A Vision of Life as Play and Possibility|James P. Carse|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Masoud
+90|The Death of Ivan Ilych|Leo Tolstoy|https://images.gr-assets.com/books/1336967150s/18386.jpg|Masoud
+91|The Brothers Karamazov|Fyodor Dostoyevsky|https://images.gr-assets.com/books/1427728126s/4934.jpg|Masoud
+92|Biocentrism: How Life and Consciousness Are the Keys to Understanding the True Nature of the Universe|Robert Lanza|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Masoud
+93|Switch: How to Change Things When Change Is Hard|Chip Heath|https://images.gr-assets.com/books/1422839688s/6570502.jpg|Jason Jones
+94|Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones|James Clear|https://images.gr-assets.com/books/1535115320s/40121378.jpg|Jason Jones
+95|How Will You Measure Your Life?|Clayton M. Christensen|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Jason Jones
+96|How to Measure Anything: Finding the Value of "Intangibles" in Business|Douglas W. Hubbard|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Jason Jones
+97|Radical Candor: Be a Kickass Boss Without Losing Your Humanity|Kim Malone Scott|https://images.gr-assets.com/books/1482838407s/29939161.jpg|Jason Jones
+98|Never Split the Difference: Negotiating As If Your Life Depended On It|Chris Voss|https://images.gr-assets.com/books/1460910517s/26156469.jpg|Jason Jones
+99|East of Eden|John Steinbeck|https://images.gr-assets.com/books/1544744853s/4406.jpg|Reuben
+100|Drive: The Surprising Truth About What Motivates Us|Daniel H. Pink|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+101|Mindset: The New Psychology of Success|Carol S. Dweck|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+102|Start with Why: How Great Leaders Inspire Everyone to Take Action|Simon Sinek|https://images.gr-assets.com/books/1360936414s/7108725.jpg|
+103|Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen|Christopher McDougall|https://images.gr-assets.com/books/1320531983s/6289283.jpg|
+104|Between the World and Me|Ta-Nehisi Coates|https://images.gr-assets.com/books/1451435027s/25489625.jpg|
+105|The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change|Stephen R. Covey|https://images.gr-assets.com/books/1421842784s/36072.jpg|Stephen Kunzler
+106|The Book of Mormon: Another Testament of Jesus Christ|Anonymous|https://images.gr-assets.com/books/1327389004s/323355.jpg|Jake Trent
+107|Drive: The Surprising Truth About What Motivates Us|Daniel H. Pink|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Jake Trent
+108|Leaders Eat Last|Simon Sinek|https://images.gr-assets.com/books/1400881733s/16144853.jpg|Jake Trent
+109|EntreLeadership: 20 Years of Practical Business Wisdom from the Trenches|Dave Ramsey|https://images.gr-assets.com/books/1327904526s/11306337.jpg|Jake Trent
+110|Peopleware: Productive Projects and Teams|Tom DeMarco|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Jake Trent
+111|Surround Yourself with Greatness|Chad Lewis|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Aaron Christensen
+112|Getting Things Done: The Art of Stress-Free Productivity|David    Allen|https://images.gr-assets.com/books/1312474060s/1633.jpg|Adam
+113|The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing|Marie Kondō|https://images.gr-assets.com/books/1418767178s/22318578.jpg|Adam
+114|Rich Dad, Poor Dad|Robert T. Kiyosaki|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Adam
+115|The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life: Before 8AM|Hal Elrod|https://images.gr-assets.com/books/1459775078s/17166225.jpg|Adam
+116|25 Days to Better Thinking & Better Living: A Guide  for Improving Every Aspect of Your Life|Linda Elder|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Adam
+117|Think and Grow Rich|Napoleon Hill|https://images.gr-assets.com/books/1463241782s/30186948.jpg|
+118|Brain Power: Learn to Improve Your Thinking Skills|Karl Albrecht|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+119|The 7 Habits Of Highly Effective Teens|Sean Covey|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+120|The Richest Man in Babylon|George S. Clason|https://images.gr-assets.com/books/1348336780s/1052.jpg|
+121|12 Rules for Life: An Antidote to Chaos|Jordan B. Peterson|https://images.gr-assets.com/books/1512705866s/30257963.jpg|Aaron Patterson
+122|Waking Up: A Guide to Spirituality Without Religion|Sam Harris|https://images.gr-assets.com/books/1415677308s/18774981.jpg|Aaron Patterson
+123|Atlas Shrugged|Ayn Rand|https://images.gr-assets.com/books/1405868167s/662.jpg|Aaron Patterson
+124|Jack Welch & The G.E. Way: Management Insights and Leadership Secrets of the Legendary CEO|Robert Slater|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Aaron Patterson
+125|The Rise of Theodore Roosevelt|Edmund Morris|https://images.gr-assets.com/books/1452010007s/40929.jpg|Aaron Patterson
+126|So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love|Cal Newport|https://images.gr-assets.com/books/1360564614s/13525945.jpg|Sam Gale
+127|Radical Candor: Be a Kickass Boss Without Losing Your Humanity|Kim Malone Scott|https://images.gr-assets.com/books/1482838407s/29939161.jpg|Sam Gale
+128|Essentialism: The Disciplined Pursuit of Less|Greg McKeown|https://images.gr-assets.com/books/1403165375s/18077875.jpg|Sam Gale
+129|Peak: Secrets from the New Science of Expertise|K. Anders Ericsson|https://images.gr-assets.com/books/1445050174s/26312997.jpg|Sam Gale
+130|The Design of Everyday Things|Donald A. Norman|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Sam Gale
+131|The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work|Shawn Achor|https://images.gr-assets.com/books/1381289860s/9484114.jpg|Jared Nelson
+132|Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.|Brené Brown|https://images.gr-assets.com/books/1541026732s/40109367.jpg|Jared Nelson
+133|The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life|Mark Manson|https://images.gr-assets.com/books/1465761302s/28257707.jpg|Jared Nelson
+134|Leadership and Self-Deception: Getting Out of the Box|The Arbinger Institute|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Jared Nelson
+135|Rework|Jason Fried|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Jared Nelson
+136|Book of Mormon, Doctrine and Covenants, Pearl of Great Price|The Church of Jesus Christ of Latter-day Saints|https://images.gr-assets.com/books/1396619969s/747061.jpg|Strack
+137|Ignore Everyone|Hugo MacLeod|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Strack
+138|Essentialism: The Disciplined Pursuit of Less|Greg McKeown|https://images.gr-assets.com/books/1403165375s/18077875.jpg|Strack
+139|12 Rules for Life: An Antidote to Chaos|Jordan B. Peterson|https://images.gr-assets.com/books/1512705866s/30257963.jpg|Strack
+140|What To Do When It's Your Turn (and it's always your turn)|Seth Godin|https://images.gr-assets.com/books/1420710928s/23665356.jpg|Strack
+141|The Power of Vulnerability: Teachings of Authenticity, Connections and Courage|Brené Brown|https://images.gr-assets.com/books/1417188663s/23500254.jpg|
+142|Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.|Brené Brown|https://images.gr-assets.com/books/1541026732s/40109367.jpg|
+143|Siddharta|Hermann Hesse|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+144|FALLING INTO PLACE: Being Human in a Spiritual World - A Guide to the Inside-Out Nature of Life|Antti Vanhanen|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+145|The Inside-Out Revolution: The Only Thing You Need to Know to Change Your Life Forever|Michael Neill|https://images.gr-assets.com/books/1364259213s/16158160.jpg|
+146|Ego Is the Enemy|Ryan Holiday|https://images.gr-assets.com/books/1459114043s/27036528.jpg|Carlos Souza
+147|Siddhartha|Hermann Hesse|https://images.gr-assets.com/books/1428715580s/52036.jpg|
+148|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+149|The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully|Gerald M. Weinberg|https://images.gr-assets.com/books/1356140085s/566213.jpg|
+150|Design Patterns: Elements of Reusable Object-Oriented Software|Erich Gamma|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+151|Crucial Conversations: Tools for Talking When Stakes Are High|Kerry Patterson|https://images.gr-assets.com/books/1497193248s/15014.jpg|
+152|The Call of the Wild|Jack London|https://images.gr-assets.com/books/1452291694s/1852.jpg|
+153|Extreme Programming Explained: Embrace Change (The XP Series)|Kent Beck|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+154|How to Get Your Point Across in 30 Seconds or Less|Milo O. Frank|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+155|Girl, Wash Your Face: Stop Believing the Lies about Who You Are So You Can Become Who You Were Meant to Be|Rachel Hollis|https://images.gr-assets.com/books/1513038393s/35542451.jpg|
+156|You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life|Jen Sincero|https://images.gr-assets.com/books/1351539051s/15843166.jpg|
+157|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+158|Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration|Ed Catmull|https://images.gr-assets.com/books/1400863577s/18077903.jpg|
+159|Unbroken: A World War II Story of Survival, Resilience and Redemption|Laura Hillenbrand|https://images.gr-assets.com/books/1327861115s/8664353.jpg|
+160|For Whom the Bell Tolls|Ernest Hemingway|https://images.gr-assets.com/books/1492591524s/46170.jpg|
+161|Never Split the Difference: Negotiating As If Your Life Depended On It|Chris Voss|https://images.gr-assets.com/books/1460910517s/26156469.jpg|
+162|Fanatical Prospecting: The Ultimate Guide to Opening Sales Conversations and Filling the Pipeline by Leveraging Social Selling, Telephone, Email, Text, and Cold Calling|Jeb Blount|https://images.gr-assets.com/books/1444688158s/26270465.jpg|
+163|The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change|Stephen R. Covey|https://images.gr-assets.com/books/1421842784s/36072.jpg|Brett Priest
+164|Let's Get Real or Let's Not Play|Mahan Illig Randy Khalsa|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Brett Priest
+165|Out of Our Minds: Learning to Be Creative 3rd Edition|Ken Robinson|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Órla Mulligan
+166|Shantaram|Gregory David Roberts|https://images.gr-assets.com/books/1333482282s/33600.jpg|
+167|The Power of Now: A Guide to Spiritual Enlightenment|Eckhart Tolle|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Lee Laughridge
+168|The War of Art: Break Through the Blocks & Win Your Inner Creative Battles|Steven Pressfield|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Lee Laughridge
+169|The Giver|Lois Lowry|https://images.gr-assets.com/books/1342493368s/3636.jpg|Tiffany Wood
+170|Warriors Don't Cry: A Searing Memoir of the Battle to Integrate Little Rock's Central High|Melba Pattillo Beals|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Tiffany Wood
+171|Left to Tell: Discovering God Amidst the Rwandan Holocaust|Immaculée Ilibagiza|https://images.gr-assets.com/books/1328860563s/408615.jpg|Tiffany Wood
+172|A Child Called "It" (Dave Pelzer, #1)|Dave Pelzer|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Tiffany Wood
+173|Unbroken: A World War II Story of Survival, Resilience and Redemption|Laura Hillenbrand|https://images.gr-assets.com/books/1327861115s/8664353.jpg|Tiffany Wood
+174|What the Robin Knows: How Birds Reveal the Secrets of the Natural World|Jon Young|https://images.gr-assets.com/books/1344712516s/13202085.jpg|Juna Abrams
+175|The Art of Mindful Birdwatching: Reflections on Freedom & Being|Claire    Thompson|https://images.gr-assets.com/books/1487836349s/34014740.jpg|Juna Abrams
+176|Extreme Programming Explained: Embrace Change (The XP Series)|Kent Beck|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+177|Clean Code: A Handbook of Agile Software Craftsmanship|Robert C. Martin|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+178|Refactoring: Improving the Design of Existing Code|Martin Fowler|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+179|The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations|Gene Kim|https://images.gr-assets.com/books/1473461230s/26083308.jpg|
+180|Leaders Eat Last|Simon Sinek|https://images.gr-assets.com/books/1400881733s/16144853.jpg|
+181|Getting Things Done: The Art of Stress-Free Productivity|David    Allen|https://images.gr-assets.com/books/1312474060s/1633.jpg|Ryan Magner
+182|Rework|Jason Fried|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Ryan Magner
+183|The Pirate's Dilemma: How Youth Culture Is Reinventing Capitalism|Matt Mason|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Ryan Magner
+184|Deep Work: Rules for Focused Success in a Distracted World|Cal Newport|https://images.gr-assets.com/books/1447957962s/25744928.jpg|Ryan Magner
+185|The Chimp Paradox: The Acclaimed Mind Management Programme to Help You Achieve Success, Confidence and Happiness|Steve   Peters|https://images.gr-assets.com/books/1341288318s/12228097.jpg|Paul Clegg
+186|Drive: The Surprising Truth About What Motivates Us|Daniel H. Pink|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Paul Clegg
+187|To Sell Is Human: The Surprising Truth About Moving Others|Daniel H. Pink|https://images.gr-assets.com/books/1355138750s/13593553.jpg|Paul Clegg
+188|Everyone Knows What a Dragon Looks Like|Jay Williams|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Paul Clegg
+189|Going Solo (Roald Dahl's Autobiography, #2)|Roald Dahl|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Paul Clegg
+190|The Four Agreements: A Practical Guide to Personal Freedom|Miguel Ruiz|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Isabella Beltran
+191|Neuromancer (Sprawl, #1)|William Gibson|https://images.gr-assets.com/books/1281419771s/888628.jpg|
+192|Snow Crash|Neal Stephenson|https://images.gr-assets.com/books/1530057753s/40651883.jpg|
+193|Microserfs|Douglas Coupland|https://images.gr-assets.com/books/1546099595s/2748.jpg|
+194|The Giving Tree|Shel Silverstein|https://images.gr-assets.com/books/1174210942s/370493.jpg|
+195|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+196|The Case for Reparations|Ta-Nehisi Coates|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+197|Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It|Lawrence Lessig|https://images.gr-assets.com/books/1344271730s/11814478.jpg|
+198|Outliers: The Story of Success|Malcolm Gladwell|https://images.gr-assets.com/books/1344266315s/3228917.jpg|
+199|Freakonomics: A Rogue Economist Explores the Hidden Side of Everything|Steven D. Levitt|https://images.gr-assets.com/books/1550917827s/1202.jpg|
+200|Rebel Talent: Why It Pays to Break the Rules at Work and in Life|Francesca Gino|https://images.gr-assets.com/books/1514795675s/35068803.jpg|
+201|The Firm|John Grisham|https://images.gr-assets.com/books/1418465200s/5358.jpg|
+202|Artemis|Andy Weir|https://images.gr-assets.com/books/1494273579s/34928122.jpg|
+203|Six Easy Pieces: Essentials of Physics By Its Most Brilliant Teacher|Richard Feynman|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+204|Black Holes, Wormholes and Time Machines|Jim Al-Khalili|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+205|Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones|James Clear|https://images.gr-assets.com/books/1535115320s/40121378.jpg|Miriam O'Connor
+206|What Happy People Know: How the New Science of Happiness Can Change Your Life for the Better|Dan Baker|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Miriam O'Connor
+207|Super Mind: How to Boost Performance and Live a Richer and Happier Life Through Transcendental Meditation|Norman E. Rosenthal|https://images.gr-assets.com/books/1458495342s/26236955.jpg|Miriam O'Connor
+208|The Omnivore's Dilemma: A Natural History of Four Meals|Michael Pollan|https://images.gr-assets.com/books/1393804353s/3109.jpg|Miriam O'Connor
+209|Life Unlocked: 7 Revolutionary Lessons to Overcome Fear|Srinivasan S. Pillay|https://images.gr-assets.com/books/1316130304s/8695792.jpg|Miriam O'Connor
+210|How Will You Measure Your Life?|Clayton M. Christensen|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+211|David and Goliath: Underdogs, Misfits, and the Art of Battling Giants|Malcolm Gladwell|https://images.gr-assets.com/books/1391813567s/15751404.jpg|
+212|Outliers: The Story of Success|Malcolm Gladwell|https://images.gr-assets.com/books/1344266315s/3228917.jpg|
+213|Angels & Demons (Robert Langdon, #1)|Dan Brown|https://images.gr-assets.com/books/1527091700s/960.jpg|
+214|Bonds That Make Us Free: Healing Our Relationships, Coming to Ourselves|C. Terry Warner|https://images.gr-assets.com/books/1414559852s/310194.jpg|
+215|Holy Bible: New International Version|Anonymous|https://images.gr-assets.com/books/1382581321s/280111.jpg|Adam Garrett-Harris
+216|Homo Deus: A Brief History of Tomorrow|Yuval Noah Harari|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+217|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+218|The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life|Mark Manson|https://images.gr-assets.com/books/1465761302s/28257707.jpg|
+219|The Tipping Point: How Little Things Can Make a Big Difference|Malcolm Gladwell|https://images.gr-assets.com/books/1473396980s/2612.jpg|
+220|The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change|Stephen R. Covey|https://images.gr-assets.com/books/1421842784s/36072.jpg|
+221|The Design of Everyday Things|Donald A. Norman|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Eric Hilton
+222|Chaos: Making a New Science|James Gleick|https://images.gr-assets.com/books/1327941595s/64582.jpg|Eric Hilton
+223|The Book of Why: The New Science of Cause and Effect|Judea Pearl|https://images.gr-assets.com/books/1516890908s/36204378.jpg|Eric Hilton
+224|So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love|Cal Newport|https://images.gr-assets.com/books/1360564614s/13525945.jpg|
+225|Outliers: The Story of Success|Malcolm Gladwell|https://images.gr-assets.com/books/1344266315s/3228917.jpg|
+226|Catch-22 (Catch-22, #1)|Joseph Heller|https://images.gr-assets.com/books/1463157317s/168668.jpg|
+227|The First 90 Days: Critical Success Strategies for New Leaders at All Levels|Michael D. Watkins|https://images.gr-assets.com/books/1354903827s/15824358.jpg|
+228|Designing Your Life: Build a Life that Works for You|Bill Burnett|https://images.gr-assets.com/books/1476133952s/26046333.jpg|
+229|The Field Guide to Human-Centered Design|IDEO.org|https://images.gr-assets.com/books/1456315980s/25061521.jpg|
+230|Observing the User Experience: A Practitioner's Guide to User Research|Mike Kuniavsky|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+231|Linchpin: Are You Indispensable?|Seth Godin|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+232|Drive: The Surprising Truth About What Motivates Us|Daniel H. Pink|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+233|The Challenger Sale: Taking Control of the Customer Conversation|Matthew Dixon|https://images.gr-assets.com/books/1366561710s/11910902.jpg|
+234|Start with Why: How Great Leaders Inspire Everyone to Take Action|Simon Sinek|https://images.gr-assets.com/books/1360936414s/7108725.jpg|
+235|The Power of Now: A Guide to Spiritual Enlightenment|Eckhart Tolle|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+236|Multipliers: How the Best Leaders Make Everyone Smarter|Liz Wiseman|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Amy Dredge
+237|The Outward Mindset: Seeing Beyond Ourselves|The Arbinger Institute|https://images.gr-assets.com/books/1460570048s/27982992.jpg|Amy Dredge
+238|The More of Less: Finding the Life You Want Under Everything You Own|Joshua Becker|https://images.gr-assets.com/books/1449997426s/27036703.jpg|Amy Dredge
+239|I Know How She Does It: How Successful Women Make the Most of Their Time|Laura Vanderkam|https://images.gr-assets.com/books/1421012149s/23399024.jpg|Amy Dredge
+240|The Halo Effect: ... and the Eight Other Business Delusions That Deceive Managers|Philip M. Rosenzweig|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Amy Dredge
+241|Essentialism: The Disciplined Pursuit of Less|Greg McKeown|https://images.gr-assets.com/books/1403165375s/18077875.jpg|
+242|The Catcher in the Rye|J.D. Salinger|https://images.gr-assets.com/books/1398034300s/5107.jpg|
+243|The Nerdist Way: How to Reach the Next Level (In Real Life)|Chris Hardwick|https://images.gr-assets.com/books/1327905067s/10723227.jpg|
+244|How to Win Friends and Influence People|Dale Carnegie|https://images.gr-assets.com/books/1442726934s/4865.jpg|
+245|The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work|Shawn Achor|https://images.gr-assets.com/books/1381289860s/9484114.jpg|
+246|Crucial Conversations: Tools for Talking When Stakes Are High|Kerry Patterson|https://images.gr-assets.com/books/1497193248s/15014.jpg|
+247|To Kill a Mockingbird|Harper Lee|https://images.gr-assets.com/books/1552035043s/2657.jpg|
+248|The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life: Before 8AM|Hal Elrod|https://images.gr-assets.com/books/1459775078s/17166225.jpg|
+249|Rich Dad, Poor Dad|Robert T. Kiyosaki|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+250|The Grapes of Wrath|John Steinbeck|https://images.gr-assets.com/books/1375670575s/18114322.jpg|Mike
+251|To a God Unknown|John Steinbeck|https://images.gr-assets.com/books/1510608634s/111300.jpg|Mike
+252|In Dubious Battle|John Steinbeck|https://images.gr-assets.com/books/1394742698s/56083.jpg|Mike
+253|Ender's Game (Ender's Saga, #1)|Orson Scott Card|https://images.gr-assets.com/books/1408303130s/375802.jpg|Mike
+254|Peak: Secrets from the New Science of Expertise|K. Anders Ericsson|https://images.gr-assets.com/books/1445050174s/26312997.jpg|Rich
+255|The Book of Why: The New Science of Cause and Effect|Judea Pearl|https://images.gr-assets.com/books/1516890908s/36204378.jpg|David Mashburn
+256|Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy|Cathy O'Neil|https://images.gr-assets.com/books/1456091964s/28186015.jpg|David Mashburn
+257|10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works|Dan   Harris|https://images.gr-assets.com/books/1451446393s/18505796.jpg|David Mashburn
+258|This is the Story of a Happy Marriage|Ann Patchett|https://images.gr-assets.com/books/1515365151s/17349222.jpg|David Mashburn
+259|A Short History of Nearly Everything|Bill Bryson|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|David Mashburn
+260|The Paradox of Choice: Why More Is Less|Barry Schwartz|https://images.gr-assets.com/books/1410138134s/10639.jpg|Abe
+261|Stumbling on Happiness|Daniel Todd Gilbert|https://images.gr-assets.com/books/1327947323s/56627.jpg|Abe
+262|Emotional Intelligence 2.0|Travis Bradberry|https://images.gr-assets.com/books/1328765863s/6486483.jpg|Sarah Doss
+263|The Four Agreements: A Practical Guide to Personal Freedom|Miguel Ruiz|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Sarah Doss
+264|Frankenstein|Mary Wollstonecraft Shelley|https://images.gr-assets.com/books/1498841231s/35031085.jpg|Sarah Doss
+265|Crucial Conversations: Tools for Talking When Stakes Are High|Kerry Patterson|https://images.gr-assets.com/books/1497193248s/15014.jpg|Sarah Doss
+266|The Grapes of Wrath|John Steinbeck|https://images.gr-assets.com/books/1375670575s/18114322.jpg|Sarah Doss
+267|Lord of the Flies|William Golding|https://images.gr-assets.com/books/1327869409s/7624.jpg|Kevin Mouritsen
+268|Team of Rivals: The Political Genius of Abraham Lincoln|Doris Kearns Goodwin|https://images.gr-assets.com/books/1347278868s/2199.jpg|Kevin Mouritsen
+269|Atlas Shrugged|Ayn Rand|https://images.gr-assets.com/books/1405868167s/662.jpg|Kevin Mouritsen
+270|Unbroken: A World War II Story of Survival, Resilience and Redemption|Laura Hillenbrand|https://images.gr-assets.com/books/1327861115s/8664353.jpg|Kevin Mouritsen
+271|Truman|David McCullough|https://images.gr-assets.com/books/1364681969s/2279.jpg|Kevin Mouritsen
+272|Heart of Darkness|Joseph Conrad|https://images.gr-assets.com/books/1392799983s/4900.jpg|Anonymous
+273|One Hundred Years of Solitude|Gabriel García Márquez|https://images.gr-assets.com/books/1327881361s/320.jpg|Anonymous
+274|Good to Great: Why Some Companies Make the Leap... and Others Don't|James C. Collins|https://images.gr-assets.com/books/1546097703s/76865.jpg|Anonymous
+275|The Impressionist|Hari Kunzru|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Anonymous
+276|Frankenstein|Mary Wollstonecraft Shelley|https://images.gr-assets.com/books/1498841231s/35031085.jpg|Anonymous
+277|The Wright Brothers|David McCullough|https://images.gr-assets.com/books/1430942575s/22609391.jpg|Ken Frei
+278|The War of Art: Break Through the Blocks & Win Your Inner Creative Battles|Steven Pressfield|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Ken Frei
+279|The Actor's Life: A Survival Guide|Jenna Fischer|https://images.gr-assets.com/books/1499758538s/32072974.jpg|Ken Frei
+280|The Righteous Mind: Why Good People Are Divided by Politics and Religion|Jonathan Haidt|https://images.gr-assets.com/books/1534528902s/11324722.jpg|Ken Frei
+281|Shoe Dog: A Memoir by the Creator of NIKE|Phil Knight|https://images.gr-assets.com/books/1457284880s/27220736.jpg|Ken Frei
+282|How to Practice: The Way to a Meaningful Life|Dalai Lama XIV|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|Melissa Labbe
+283|Where Good Ideas Come from: The Natural History of Innovation|Steven Johnson|https://images.gr-assets.com/books/1311705993s/8034188.jpg|Melissa Labbe
+284|Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen|Christopher McDougall|https://images.gr-assets.com/books/1320531983s/6289283.jpg|Melissa Labbe
+285|Nudge: Improving Decisions About Health, Wealth, and Happiness|Richard H. Thaler|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+286|The Moral Animal: Why We Are the Way We Are: The New Science of Evolutionary Psychology|Robert Wright|https://images.gr-assets.com/books/1430864612s/681941.jpg|
+287|Thinking, Fast and Slow|Daniel Kahneman|https://images.gr-assets.com/books/1317793965s/11468377.jpg|
+288|Guns, Germs, and Steel: The Fates of Human Societies|Jared Diamond|https://images.gr-assets.com/books/1453215833s/1842.jpg|
+289|Sapiens: A Brief History of Humankind|Yuval Noah Harari|https://images.gr-assets.com/books/1420585954s/23692271.jpg|
+290|Abundance: The Future Is Better Than You Think|Peter H. Diamandis|https://images.gr-assets.com/books/1344396582s/13187824.jpg|
+291|How to Win Friends and Influence People|Dale Carnegie|https://images.gr-assets.com/books/1442726934s/4865.jpg|
+292|Team of Rivals: The Political Genius of Abraham Lincoln|Doris Kearns Goodwin|https://images.gr-assets.com/books/1347278868s/2199.jpg|
+293|How Will You Measure Your Life?|Clayton M. Christensen|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
+294|Never Eat Alone: And Other Secrets to Success, One Relationship at a Time|Keith Ferrazzi|https://images.gr-assets.com/books/1320417949s/84699.jpg|
+295|The Goal: A Process of Ongoing Improvement|Eliyahu M. Goldratt|https://images.gr-assets.com/books/1475538019s/113934.jpg|
+296|The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business|Clayton M. Christensen|https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png|
