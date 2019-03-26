@@ -7,7 +7,7 @@ import { parseString } from 'xml2js'
 import cors from 'cors'
 
 import config from './config'
-import { createBook } from './db'
+import { getAggregatedBooks } from './db'
 const app = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -31,14 +31,14 @@ app.get('/search', async (request, response, next) => {
     response.status(200).send(books)
 })
 
-app.post('/submission', async (request, response, next) => {
-    const { user, selectedBooks } = request.body.data
+// app.post('/submission', async (request, response, next) => {
+//     const { user, selectedBooks } = request.body.data
 
-    selectedBooks.forEach(async book => {
-        await createBook({ ...book, user })
-    })
-    return response.status(200).send(request.body)
-})
+//     selectedBooks.forEach(async book => {
+//         await createBook({ ...book, user })
+//     })
+//     return response.status(200).send(request.body)
+// })
 
 app.get('/ok', (request, response, next) => response.send('Service is running'))
 
@@ -49,6 +49,11 @@ app.get('/app.bundle.js', function(request, response) {
 
 app.get('/', function(request, response) {
     response.sendFile(path.resolve(__dirname, '../../dist', 'index.html'))
+})
+
+app.get('/aggregated_results', async (request, response, next) => {
+    const books = await getAggregatedBooks()
+    return response.send({ books })
 })
 
 export default app

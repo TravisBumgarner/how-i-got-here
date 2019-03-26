@@ -1,5 +1,5 @@
-import knex from "./knex"
-import createBook from "./createBook"
+import knex from './knex'
+import createBook from './createBook'
+import getAggregatedBooks from './getAggregatedBooks'
 
-
-export { knex, createBook }
+export { knex, createBook, getAggregatedBooks }
