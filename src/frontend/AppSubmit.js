@@ -70,6 +70,8 @@ const BookWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
 `
 
 class App extends Component {
@@ -94,8 +96,10 @@ class App extends Component {
         if (query.length === 0) {
             alert('Please enter a query.')
         } else {
-            const response = await axios.get(`${__API__}search?query=${query}`)
-            this.setState({ searchedBooks: response.data })
+            const response = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}`)
+            const books = response.data.items.map(({volumeInfo, id}) => ({...volumeInfo, id}))
+            console.log(response.data)
+            this.setState({ searchedBooks: books })
         }
     }
 
@@ -110,33 +114,33 @@ class App extends Component {
         }
     }
 
-    submitBooks = async () => {
-        const { selectedBooks, user } = this.state
+    // submitBooks = async () => {
+    //     const { selectedBooks, user } = this.state
 
-        if (selectedBooks.length === 0) {
-            alert('Please select at least one book.')
-        } else {
-            axios
-                .post(`${__API__}submission`, {
-                    data: {
-                        selectedBooks,
-                        user
-                    }
-                })
-                .then(response => {
-                    alert('You are awesome, thanks!')
-                    this.setState({
-                        selectedBooks: [],
-                        searchedBooks: [],
-                        query: '',
-                        user: ''
-                    })
-                })
-                .catch(error => alert('I think I broke it. Whoops.'))
+    //     if (selectedBooks.length === 0) {
+    //         alert('Please select at least one book.')
+    //     } else {
+    //         axios
+    //             .post(`${__API__}submission`, {
+    //                 data: {
+    //                     selectedBooks,
+    //                     user
+    //                 }
+    //             })
+    //             .then(response => {
+    //                 alert('You are awesome, thanks!')
+    //                 this.setState({
+    //                     selectedBooks: [],
+    //                     searchedBooks: [],
+    //                     query: '',
+    //                     user: ''
+    //                 })
+    //             })
+    //             .catch(error => alert('I think I broke it. Whoops.'))
 
-            this.setState()
-        }
-    }
+    //         this.setState()
+    //     }
+    // }
 
     removeBook = index => {
         const { selectedBooks } = this.state
@@ -155,21 +159,23 @@ class App extends Component {
 
     render() {
         const { query, searchedBooks, selectedBooks, user } = this.state
-
-        const SearchResults = searchedBooks.map(book => (
-            <BookWrapper key={book.title + book.author}>
+        console.log(searchedBooks)
+        const SearchResults = searchedBooks.map(({title, authors, description, id, imageLinks}) => {
+            return (
+            <BookWrapper key={id}>
                 <DetailsWrapper>
-                    <img src={book.src} />
+                    <img style={{maxHeight: '150px'}} src={imageLinks && imageLinks.smallThumbnail} />
                     <TitleAndAuthorWrapper>
-                        <BookTitle>{book.title}</BookTitle>
-                        {book.author}
+                        <BookTitle>{title ? title : ''}</BookTitle>
+                        <p>Authors: {authors ? authors.join(', ') : ''}</p>
+                        <p>Description: {description ? `${description.slice(0,250)}...` : ''}</p>
                     </TitleAndAuthorWrapper>
                 </DetailsWrapper>
-                <Button variant="contained" color="primary" onClick={() => this.addBook(book)}>
+                <Button variant="contained" color="primary" onClick={() => this.addBook({title, authors, description, id, imageLinks})}>
                     Add
                 </Button>
             </BookWrapper>
-        ))
+            )})
         const SelectedBooks = selectedBooks.sort().map((book, index) => (
             <BookWrapper key={book.title + book.author}>
                 <DetailsWrapper>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './AppGet'
+import App from './AppSubmit'
 
 ReactDOM.render(<App />, document.getElementById('root'))
