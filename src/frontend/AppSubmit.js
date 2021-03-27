@@ -97,8 +97,13 @@ class App extends Component {
             alert('Please enter a query.')
         } else {
             const response = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}`)
-            const books = response.data.items.map(({volumeInfo, id}) => ({...volumeInfo, id}))
-            console.log(response.data)
+            
+            const books = response.data.items.map(({volumeInfo, id}) => {
+                const src = volumeInfo && volumeInfo.imageLinks ? volumeInfo.imageLinks.smallThumbnail : ''
+                console.log(src)
+                return {...volumeInfo, id, src }
+            })
+            console.log(books)
             this.setState({ searchedBooks: books })
         }
     }
@@ -110,37 +115,39 @@ class App extends Component {
         } else if (selectedBooks.includes(book)) {
             alert("You've already added this book!")
         } else {
+            console.log(book)
             this.setState({ selectedBooks: [...selectedBooks, book] })
+            
         }
     }
 
-    // submitBooks = async () => {
-    //     const { selectedBooks, user } = this.state
+    submitBooks = async () => {
+        const { selectedBooks, user } = this.state
+        console.log(selectedBooks)
+        if (selectedBooks.length === 0) {
+            alert('Please select at least one book.')
+        } else {
+            axios
+                .post(`${__API__}submission`, {
+                    data: {
+                        selectedBooks,
+                        user
+                    }
+                })
+                .then(response => {
+                    alert('You are awesome, thanks!')
+                    this.setState({
+                        selectedBooks: [],
+                        searchedBooks: [],
+                        query: '',
+                        user: ''
+                    })
+                })
+                .catch(error => alert('I think I broke it. Whoops.'))
 
-    //     if (selectedBooks.length === 0) {
-    //         alert('Please select at least one book.')
-    //     } else {
-    //         axios
-    //             .post(`${__API__}submission`, {
-    //                 data: {
-    //                     selectedBooks,
-    //                     user
-    //                 }
-    //             })
-    //             .then(response => {
-    //                 alert('You are awesome, thanks!')
-    //                 this.setState({
-    //                     selectedBooks: [],
-    //                     searchedBooks: [],
-    //                     query: '',
-    //                     user: ''
-    //                 })
-    //             })
-    //             .catch(error => alert('I think I broke it. Whoops.'))
-
-    //         this.setState()
-    //     }
-    // }
+            // this.setState()
+        }
+    }
 
     removeBook = index => {
         const { selectedBooks } = this.state
@@ -160,18 +167,19 @@ class App extends Component {
     render() {
         const { query, searchedBooks, selectedBooks, user } = this.state
         console.log(searchedBooks)
-        const SearchResults = searchedBooks.map(({title, authors, description, id, imageLinks}) => {
+        const SearchResults = searchedBooks.map((book) => {
+            const {src, title, authors, description, id} = book
             return (
             <BookWrapper key={id}>
                 <DetailsWrapper>
-                    <img style={{maxHeight: '150px'}} src={imageLinks && imageLinks.smallThumbnail} />
+                    <img style={{maxHeight: '150px'}} src={src} />
                     <TitleAndAuthorWrapper>
                         <BookTitle>{title ? title : ''}</BookTitle>
                         <p>Authors: {authors ? authors.join(', ') : ''}</p>
                         <p>Description: {description ? `${description.slice(0,250)}...` : ''}</p>
                     </TitleAndAuthorWrapper>
                 </DetailsWrapper>
-                <Button variant="contained" color="primary" onClick={() => this.addBook({title, authors, description, id, imageLinks})}>
+                <Button variant="contained" color="primary" onClick={() => this.addBook(book)}>
                     Add
                 </Button>
             </BookWrapper>
@@ -181,7 +189,7 @@ class App extends Component {
                 <DetailsWrapper>
                     <img src={book.src} />
                     <TitleAndAuthorWrapper>
-                        {book.title} by {book.author}
+                        {book.title} by {book.authors.join(', ')}
                     </TitleAndAuthorWrapper>
                 </DetailsWrapper>
                 <Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>

@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     return knex.schema.createTable(TABLE_NAME, table => {
         table.increments('id')
         table.text('title')
-        table.text('author')
+        table.text('authors')
         table.text('src')
         table.text('user')
     })

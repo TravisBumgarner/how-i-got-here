@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "migrate": "knex migrate:latest",
         "server:dev": "NODE_ENV=development nodemon -r esm index.js",
         "server:prod": "NODE_ENV=production nodemon -r esm index.js",
         "frontend:dev": "NODE_ENV=development webpack-dev-server --hot --inline --mode=development --config ./webpack.js",

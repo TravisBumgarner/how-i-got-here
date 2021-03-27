@@ -1,7 +1,8 @@
 import knex from "./knex"
 
-const create = ({ title, author, src, user }) => {
-    return knex("books").insert({ title, author, src, user })
+const create = ({ title, authors, src, user }) => {
+    console.log(title, authors, src, user)
+    return knex("books").insert({ title: title || '', authors: authors.join(', ') || '' , src: src || '', user: user || '' })
 }
 
 export default create
