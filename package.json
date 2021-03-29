@@ -5,10 +5,9 @@
     "main": "index.js",
     "scripts": {
         "migrate": "knex migrate:latest",
-        "server:dev": "NODE_ENV=development nodemon -r esm index.js",
-        "server:prod": "NODE_ENV=production nodemon -r esm index.js",
         "frontend:dev": "NODE_ENV=development webpack-dev-server --hot --inline --mode=development --config ./webpack.js",
-        "bundle": "rm ./dist/index.html; rm ./dist/app*; mkdir ./dist; NODE_ENV=production; webpack --mode=production --config ./webpack.js"
+        "bundle": "rm ./public/index.html; rm ./public/app*; mkdir ./public; NODE_ENV=production; webpack --mode=production --config ./webpack.js",
+        "deploy": "gcloud builds submit --tag gcr.io/eng40-277714/how-i-got-here-2 && gcloud run deploy how-i-got-here-2 --image gcr.io/eng40-277714/how-i-got-here-2 --platform managed --region us-east1"
     },
     "author": "Travis Bumgarner",
     "dependencies": {
@@ -25,6 +24,7 @@
         "cors": "^2.8.5",
         "esm": "^3.2.17",
         "express": "^4.16.4",
+        "firebase": "^8.3.1",
         "html-webpack-plugin": "^3.2.0",
         "install": "^0.12.2",
         "knex": "^0.16.3",

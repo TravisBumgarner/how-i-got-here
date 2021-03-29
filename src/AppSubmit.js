@@ -3,6 +3,20 @@ import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import styled from 'styled-components'
 import axios from 'axios'
+import firebase from "firebase";
+
+firebase.initializeApp({
+    apiKey: "AIzaSyD3PGhV7k2GIRn2icVFSp5WOy9IwLGhPdg",
+    authDomain: "i-make-things.firebaseapp.com",
+    databaseURL: "https://i-make-things.firebaseio.com",
+    projectId: "i-make-things",
+    storageBucket: "i-make-things.appspot.com",
+    messagingSenderId: "326629602485",
+    appId: "1:326629602485:web:7cc1e2baa19e11f6e2fafc"
+  });
+  
+var db = firebase.firestore();
+
 
 const DEFAULT_SPACING = `30px`
 
@@ -123,17 +137,13 @@ class App extends Component {
 
     submitBooks = async () => {
         const { selectedBooks, user } = this.state
-        console.log(selectedBooks)
         if (selectedBooks.length === 0) {
             alert('Please select at least one book.')
         } else {
-            axios
-                .post(`${__API__}submission`, {
-                    data: {
-                        selectedBooks,
-                        user
-                    }
-                })
+            db.collection("books").add({
+                user,
+                selectedBooks,
+            })
                 .then(response => {
                     alert('You are awesome, thanks!')
                     this.setState({
@@ -179,7 +189,7 @@ class App extends Component {
                         <p>Description: {description ? `${description.slice(0,250)}...` : ''}</p>
                     </TitleAndAuthorWrapper>
                 </DetailsWrapper>
-                <Button variant="contained" color="primary" onClick={() => this.addBook(book)}>
+                <Button variant="contained" color="primary" onClick={() => this.addBook({src, title, authors, description, id})}>
                     Add
                 </Button>
             </BookWrapper>
