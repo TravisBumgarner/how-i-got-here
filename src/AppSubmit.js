@@ -113,9 +113,14 @@ class App extends Component {
             const response = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}`)
             
             const books = response.data.items.map(({volumeInfo, id}) => {
-                const src = volumeInfo && volumeInfo.imageLinks ? volumeInfo.imageLinks.smallThumbnail : ''
-                console.log(src)
-                return {...volumeInfo, id, src }
+                return {
+                    id,
+                    src: volumeInfo.src,
+                    description: volumeInfo.description ? `${volumeInfo.description.slice(0,250)}...` : '',
+                    authors: volumeInfo.authors && Array.isArray(volumeInfo.authors) ? volumeInfo.authors.join(', ') : '',
+                    title: volumeInfo.title ? volumeInfo.title : '',
+                    src: volumeInfo && volumeInfo.imageLinks ? volumeInfo.imageLinks.smallThumbnail : ''
+                }
             })
             console.log(books)
             this.setState({ searchedBooks: books })
@@ -129,7 +134,6 @@ class App extends Component {
         } else if (selectedBooks.includes(book)) {
             alert("You've already added this book!")
         } else {
-            console.log(book)
             this.setState({ selectedBooks: [...selectedBooks, book] })
             
         }
@@ -176,17 +180,18 @@ class App extends Component {
 
     render() {
         const { query, searchedBooks, selectedBooks, user } = this.state
-        console.log(searchedBooks)
+
         const SearchResults = searchedBooks.map((book) => {
             const {src, title, authors, description, id} = book
+
             return (
             <BookWrapper key={id}>
                 <DetailsWrapper>
                     <img style={{maxHeight: '150px'}} src={src} />
                     <TitleAndAuthorWrapper>
-                        <BookTitle>{title ? title : ''}</BookTitle>
-                        <p>Authors: {authors ? authors.join(', ') : ''}</p>
-                        <p>Description: {description ? `${description.slice(0,250)}...` : ''}</p>
+                        <BookTitle>{title}</BookTitle>
+                        <p>Authors: {authors}</p>
+                        <p>Description: {description}</p>
                     </TitleAndAuthorWrapper>
                 </DetailsWrapper>
                 <Button variant="contained" color="primary" onClick={() => this.addBook({src, title, authors, description, id})}>
@@ -194,12 +199,12 @@ class App extends Component {
                 </Button>
             </BookWrapper>
             )})
-        const SelectedBooks = selectedBooks.sort().map((book, index) => (
-            <BookWrapper key={book.title + book.author}>
+        const SelectedBooks = selectedBooks.sort().map(({title, authors, src, id}, index) => (
+            <BookWrapper key={id}>
                 <DetailsWrapper>
-                    <img src={book.src} />
+                    <img src={src} />
                     <TitleAndAuthorWrapper>
-                        {book.title} by {book.authors.join(', ')}
+                        {title} by {authors}
                     </TitleAndAuthorWrapper>
                 </DetailsWrapper>
                 <Button variant="contained" color="primary" onClick={() => this.removeBook(index)}>
@@ -222,7 +227,7 @@ class App extends Component {
                                 onChange={this.updateQuery}
                                 value={query}
                                 fullWidth
-                                label="Search for a Book (Via Goodreads)"
+                                label="Search for a Book (Via Google Books)"
                             />
                             <Button onClick={this.getBooks} variant="contained" color="primary">
                                 Search
